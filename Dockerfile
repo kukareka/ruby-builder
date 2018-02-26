@@ -6,4 +6,4 @@ RUN apt-get update -qq && \
   wget --no-check-certificate -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O- | apt-key add - && \
   apt-get install -qqy --no-install-recommends awscli ca-certificates cmake git nodejs zip postgresql-client-9.6 && \
   gem update bundler && \
-  npm install -g @2fd/graphdoc mjml@2.3
+  npm install -g @2fd/graphdoc mjml@3.3.5
